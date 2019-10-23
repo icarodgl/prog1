@@ -3,7 +3,11 @@ def listra (l,n):
 	l.append(n)
 	
 	return l
-
+def Negar(T):
+	if T:
+		return False
+	else:
+		return True
 
 
 def rev (l,con):
